@@ -14,7 +14,6 @@ class ComplexNumber{
 		bool operator==(const ComplexNumber &);
 		double abs();
 		double angle();
-		friend ostream & operator<<(ostream &, const ComplexNumber &);
 };
 
 ComplexNumber::ComplexNumber(double x = 0,double y = 0){
