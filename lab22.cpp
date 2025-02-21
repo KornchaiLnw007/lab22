@@ -11,12 +11,7 @@ class ComplexNumber{
 		ComplexNumber operator-(const ComplexNumber &);
 		ComplexNumber operator*(const ComplexNumber &);
 		ComplexNumber operator/(const ComplexNumber &);
-		friend ComplexNumber operator+(double ,const ComplexNumber &);
-		friend ComplexNumber operator-(double ,const ComplexNumber &);
-		friend ComplexNumber operator*(double ,const ComplexNumber &);
-		friend ComplexNumber operator/(double ,const ComplexNumber &);
 		bool operator==(const ComplexNumber &);
-		friend bool operator==(double ,const ComplexNumber &);
 		double abs();
 		double angle();
 		friend ostream & operator<<(ostream &, const ComplexNumber &);
